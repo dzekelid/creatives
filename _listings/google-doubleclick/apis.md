@@ -25,7 +25,7 @@ apis:
   tags: Creative
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/creative/master/_listings/google-doubleclick/userprofiles-profileid-campaigns-campaignid-campaigncreativeassociations-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/creative/master/_listings/google-doubleclick/userprofiles-profileid-creativeassets-advertiserid-creativeassets-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
