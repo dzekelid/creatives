@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Google APIs
 - Advertising
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/creative/master/_listings/google-doubleclick/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/creatives/master/_listings/google-doubleclick/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Doubleclick API
@@ -22,10 +22,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: ""
   baseURL: https:///
-  tags: Creative
+  tags: Creatives
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/creative/master/_listings/google-doubleclick/userprofiles-profileid-creatives-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/creatives/master/_listings/google-doubleclick/userprofiles-profileid-campaigns-campaignid-campaigncreativeassociations-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
