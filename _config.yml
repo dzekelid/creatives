@@ -1,10 +1,10 @@
-title: Streamdata Gallery Creative
-url: creative.streamdata.gallery
-tag: Creative
+title: Streamdata Gallery Creatives
+url: creatives.streamdata.gallery
+tag: Creatives
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 github_user: streamdata-gallery
-github_repo: creative
+github_repo: creatives
 github_branch: master
 collections:
   listings:
