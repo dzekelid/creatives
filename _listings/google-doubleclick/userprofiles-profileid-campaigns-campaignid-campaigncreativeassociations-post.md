@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Add Campaign Creative
   version: 1.0.0
+  description: Associates a creative with the specified campaign. This method creates
+    a default ad with dimensions matching the creative in the campaign if such a default
+    ad does not exist already.
 schemes:
 - http
 produces:
