@@ -26,16 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/creatives/master/_listings/google-doubleclick/userprofiles-profileid-campaigns-campaignid-campaigncreativeassociations-post.md
-- name: Google Doubleclick API Get Campaign Creatives
-  description: Retrieves the list of creative IDs associated with the specified campaign.
-    This method supports paging.
+- name: Google Doubleclick API Add Campaign Creative
+  description: Associates a creative with the specified campaign. This method creates
+    a default ad with dimensions matching the creative in the campaign if such a default
+    ad does not exist already.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Creatives
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/creatives/master/_listings/google-doubleclick/userprofiles-profileid-campaigns-campaignid-campaigncreativeassociations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/creatives/master/_listings/google-doubleclick/userprofiles-profileid-campaigns-campaignid-campaigncreativeassociations-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
